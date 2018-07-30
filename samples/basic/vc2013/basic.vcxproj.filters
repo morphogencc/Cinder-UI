@@ -230,15 +230,35 @@
     <ClCompile Include="..\..\..\src\XYPad.cpp">
       <Filter>Blocks\UI\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\Envelope.cpp">
+      <Filter>Blocks\UI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WindowCanvas.cpp">
+      <Filter>Blocks\UI\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CocoaWindowCanvas.h">
+      <Filter>Blocks\UI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Envelope.h">
+      <Filter>Blocks\UI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WindowCanvas.h">
+      <Filter>Blocks\UI\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resources.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\CocoaWindowCanvas.mm">
+      <Filter>Blocks\UI\src</Filter>
+    </None>
   </ItemGroup>
 </Project>
