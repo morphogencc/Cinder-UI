@@ -66,7 +66,6 @@ class Radio : public ControlWithLabel {
 	const std::string getType() override { return "Radio"; }
 	void activate( std::string name );
 	virtual void setCallback( const std::function<void( std::string, bool )> &callback );
-
 	~Radio();
 
   protected:
